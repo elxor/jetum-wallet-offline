@@ -1,0 +1,38 @@
+@import "../../assets/styles/variables";
+
+.success,
+.error {
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+
+.headerSuccess {
+    font-size: 20px;
+    color: $main-color-lighter;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.txHashWrapper {
+    border: 1px solid $gray-color;
+    padding: 10px;
+}
+
+.headerError {
+    font-size: 20px;
+    color: $notice-red;
+}
+
+.downloadBtnWrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.downloadBtn {
+    height: 34px;
+    max-width: 150px;
+}
